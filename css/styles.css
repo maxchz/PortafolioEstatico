@@ -336,3 +336,55 @@ a{
 .vtimeline-date{width:auto;text-align:left;position:relative;margin-bottom:15px;display:block;margin-left:70px}
 .vtimeline-icon{margin-left:0}
 .vtimeline-content{margin-left:70px}} */
+
+
+/* EDUCACION */
+
+#education{
+    padding:50px 15px;
+    text-align:center;
+    border-bottom:1px solid #dcd9d9;
+}
+#education h2{
+    color:#374054;
+}
+
+#education-timeline{
+    margin:5% auto 0 auto;
+    position:relative;
+    max-width:1000px;
+    z-index:0;
+}
+
+
+
+.education-block{
+    display:flex;
+    min-height:225px;
+   }
+.education-block span{
+    width: 30%;
+    border-right:1px solid #dcd9d9;
+    padding-top:1.5%;
+    text-align:left;
+    
+}
+
+.education-data{
+    display:block;
+    width:70%;
+    background-color:white;
+    border:1px solid #dcd9d9;
+    margin-left:1.5%;
+    margin-bottom:1.5%;
+    padding:0% 1.5% 0 1.5%;
+    text-align:left;
+    border-radius:0.5rem;
+
+}
+.education-data h3,h4{
+    margin-top:1.5%;
+    margin-bottom:1.5%;
+    font-weight: lighter;
+}
+
