@@ -465,12 +465,7 @@ a{
 /* HABILIDADES */
 
 
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Hachi Maru Pop', cursive;
-} */
+
 #skill{
     padding: 0;
     margin: 0;
@@ -551,7 +546,6 @@ a{
 }
 
 
-
 .box-text{
     display:block;
     margin-top:1.5%;
@@ -570,7 +564,6 @@ a{
 }
 
 .text{
-    /* margin:10% 0 10% 0; */
     color: rgb(0,0,0);
     font-weight: 700;
     font-size: 18px;
@@ -581,74 +574,78 @@ a{
 
 }
 
-/* svg{
-    position: relative;
-    width: 150px;
-    height: 150px;
-    transform: rotate(-85deg)!important;
+/* CONTACTO */
+
+#contact{
+    margin:6% 0 3% 0;
+    padding:50px 15px;
+    background:linear-gradient(30deg, rgb(77, 7, 21),rgb(65, 33, 18), rgb(43, 70, 150), rgb(78, 34, 34), rgb(39, 1, 39));
+    text-align:center;
 }
 
-svg circle{
-    width: 100%;
-    height: 100%;
-    fill: none;
-    stroke: #e79595a2;
-    stroke-width: 10;
-    stroke-linecap: round !important;
-    transform: translate(5px, 5px);
-} */
+#contact h2{
+    margin:0 0 3% 0;
+    color:#fff;
+    font-weight:500;
+}
+#contact-form{
+    max-width:500px;
+    margin:0 auto;
+}
+.form-data{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+    width:100%;
+}
 
-/*Claculo para simular el porcent*/
- /* svg circle:nth-child(2){
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+.form-input{
+    width:100%;
+}
+
+input, textarea{
+    padding: 0;
+    text-indent: 10px;
+    width:100%;
+    height: 30px;
+    border-radius:4px;
+    border:none;
+    margin-bottom:10px;
+    background:#b5b7b8;
+    color:black;
+    /* transition:.5s ease all; */
+}
+textarea{
+    padding-top:10px;
+}
+
+#contact-form input:focus,#contact-form textarea:focus{
+    outline:none;
+    background:#dadadb;
+}
+#contact-form textarea{
+    height:150px;
+    /* resize:none; */
 }
 
 
-.card:nth-child(1) svg circle:nth-child(2){
-    stroke-dashoffset:calc(100 * 6);
-	stroke-dasharray:calc(100 * 6);
-	stroke-dashoffset:calc((100 * 6) - ((100 * 6) * 80) / 100); 
-	
-   
+.btn-form{
+    /* display:block; */
+    width:100%;
+    background:#fff;
+    border-radius:4px;
+    padding:5px 0px;
+    border:none;
+    color:#000000;
+    font-weight:700;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
+    transition:.5s ease all;
 }
-.card:nth-child(2) svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 30)/100);
-    stroke: rgb(255,0,0);
-}
-.card:nth-child(3) svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440 * 60)/100);
-    stroke: rgb(255,0,0);
-}   */
-
-/* @media only screen and (max-width:600px)
-{
-    #skill{
-        height: auto;
-        margin-left: 30px;
-        flex-flow: row wrap;
-    }
-} 
-
-@media screen and(max-width: 1068px){
-    .container{
-        max-width: 80rem;
-        min-width: 70rem;
-    }
-    
+.btn-form:hover{
+    background-color: #dadadb;
 }
 
-@media screen and (max-width: 868px){
 
-    .container{
-        max-width: 80rem;
-    }
-}
-@media screen and (max-width: 768px){
-
-    .container{
-        padding: 2.5rem;
-        flex-direction: column;
-        margin-top: 20px;
-    }
-}  */
