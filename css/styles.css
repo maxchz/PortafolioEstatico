@@ -616,7 +616,6 @@ input, textarea{
     margin-bottom:10px;
     background:#b5b7b8;
     color:black;
-    /* transition:.5s ease all; */
 }
 textarea{
     padding-top:10px;
@@ -628,12 +627,10 @@ textarea{
 }
 #contact-form textarea{
     height:150px;
-    /* resize:none; */
 }
 
 
 .btn-form{
-    /* display:block; */
     width:100%;
     background:#fff;
     border-radius:4px;
