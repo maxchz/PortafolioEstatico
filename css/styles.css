@@ -356,8 +356,6 @@ a{
     z-index:0;
 }
 
-
-
 .education-block{
     display:flex;
     min-height:225px;
@@ -366,8 +364,7 @@ a{
     width: 30%;
     border-right:1px solid #dcd9d9;
     padding-top:1.5%;
-    text-align:left;
-    
+    text-align:left; 
 }
 
 .education-data{
@@ -380,8 +377,8 @@ a{
     padding:0% 1.5% 0 1.5%;
     text-align:left;
     border-radius:0.5rem;
-
 }
+
 .education-data h3,h4{
     margin-top:1.5%;
     margin-bottom:1.5%;
