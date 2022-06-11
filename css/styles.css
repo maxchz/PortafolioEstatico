@@ -22,6 +22,8 @@ a{
     text-decoration: none;
     color:white;
     cursor:pointer;
+
+
 }
 
 /* HEADER */
@@ -32,11 +34,13 @@ a{
     list-style:none;
     padding: 0px;
     margin:0px;
+    
 }
 
 .li-navbar {
     margin-left:1.8%;
     margin-right:1.8%;
+
 }
 
 .icon-right{
@@ -48,12 +52,15 @@ a{
     margin-left: 10px;
     justify-content: center;
     align-items: center;
+
+
 }
 
 .btn-inicio{
     color:white;
     background-color: transparent;
     border: none;
+
 }
 
 /* BANNER PRINCIPAL */
@@ -83,6 +90,7 @@ a{
     color:#fff;
     font-weight:900;
     font-size:5em;
+    /* text-transform:uppercase; */
     letter-spacing:0.05em;
     line-height:1em}
 
@@ -107,7 +115,20 @@ a{
     border-radius: 0.5rem;
     padding: 3%;
     background-color: #595a5fce;
+    /* box-shadow:0 10px 20px rgba(0, 0, 0, 0.582),0 6px 6px #1e222d80 */
 }
+
+/* #lead-overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background:rgba(33,125,187,0.8);
+    z-index:1} */
+
 
 #lead-down{
     position:absolute;
@@ -120,6 +141,8 @@ a{
     color:#fff;
 }
 
+
+
 #lead-down span{
     cursor:pointer;
     display:block;
@@ -129,7 +152,9 @@ a{
     border-radius:0.5rem;
     border:1.5px solid #2da4f3; 
     text-align:center;
-   
+    /* padding:15px 0px 15px 0px;
+    border:10px 0px 10px 0px; */
+    /* a0cfee */
 }
 
 #lead-down i{
@@ -214,6 +239,7 @@ a{
 
 /* EXPERIENCIA */
 
+
 #experience{
     padding:50px 15px;
     text-align:center;
@@ -230,23 +256,27 @@ a{
     z-index:0;
 }
 
+
 .background-alt{
     background:#f2f2f5;
 }
 
 .experience-job{
     display:flex;
-    min-height:225px;
-}
+    /* padding-top:0.75%;
+    padding-bottom:0.75%; */
 
+}
 .experience-job span{
     width: 30%;
     border-right:1px solid #dcd9d9;
     padding-top:1.5%;
-    text-align:left;
     
 }
-
+/* .experience-separator{
+    display:block;
+    width:5%;
+} */
 .experience-data{
     display:block;
     width:70%;
@@ -264,6 +294,7 @@ a{
     margin-bottom:1.5%;
     font-weight: lighter;
 }
+
 
 /* EDUCACION */
 
@@ -285,16 +316,16 @@ a{
 
 
 
-
 .education-block{
     display:flex;
-   
-}
+    min-height:225px;
+   }
 .education-block span{
     width: 30%;
     border-right:1px solid #dcd9d9;
     padding-top:1.5%;
-    text-align:left; 
+    text-align:left;
+    
 }
 
 .education-data{
@@ -394,8 +425,9 @@ a{
 
 
 #skill{
-    padding: 50px 15px 0 15px;
+    padding: 0;
     margin: 0;
+    /* box-sizing: border-box; */
     justify-content: center;
     align-items: center;
     min-height: 98vh;
@@ -460,6 +492,8 @@ a{
   
 }
 
+
+
 .container .card:hover{
     transform: translateY(-10px);
     box-shadow: 0 15px 35px rgba(0,0,0,0.5);
@@ -490,6 +524,7 @@ a{
     text-transform: uppercase;
     transition: 0.5s;
     margin-top:20px;
+
 }
 
 /* CONTACTO */
@@ -558,6 +593,7 @@ textarea{
     box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
     transition:.5s ease all;
 }
+
 .btn-form:hover{
     background-color: #dadadb;
 }
