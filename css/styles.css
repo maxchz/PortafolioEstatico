@@ -265,7 +265,6 @@ a{
     font-weight: lighter;
 }
 
-/* EDUCACION */
 
 #education{
     padding:50px 15px;
@@ -276,12 +275,6 @@ a{
     color:#374054;
 }
 
-#education-timeline{
-    margin:5% auto 0 auto;
-    position:relative;
-    max-width:1000px;
-    z-index:0;
-}
 
 /* EDUCACION */
 
