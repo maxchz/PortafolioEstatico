@@ -391,11 +391,8 @@ a{
 
 /* HABILIDADES */
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> port-est-contacto
 #skill{
     padding: 50px 15px 0 15px;
     margin: 0;
@@ -468,10 +465,6 @@ a{
     box-shadow: 0 15px 35px rgba(0,0,0,0.5);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> port-est-contacto
 .box-text{
     display:block;
     margin-top:1.5%;
@@ -498,8 +491,6 @@ a{
     transition: 0.5s;
     margin-top:20px;
 }
-<<<<<<< HEAD
-=======
 
 /* CONTACTO */
 
@@ -573,4 +564,3 @@ textarea{
 }
 
 
->>>>>>> port-est-contacto
