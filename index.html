@@ -521,13 +521,17 @@
     <!-- Fin #habilidades -->
     
     <section id="contact">
-            <h2>Get in Touch</h2>
+            <h2>Contáctame</h2>
             <div id="contact-form">
-                <form method="POST" action="https://formspree.io/email@email.com">
-                    <input type="hidden" name="_subject" value="Contact request from personal website" />
-                    <input type="email" name="_replyto" placeholder="Your email" required>
-                    <textarea name="message" placeholder="Your message" required></textarea>
-                    <button class="btn-form" type="submit">Send</button>
+                <form class="form-data">
+                    <label for="_subject" class="form-input">
+                        <input type="text"  name="_subject" placeholder="Nombre" required/>
+                    </label>
+                    <label for="_replyto" class="form-input">
+                        <input type="email" name="_replyto" placeholder="Correo electrónico" required>
+                    </label>
+                    <textarea name="message" placeholder="Escríbi tu mensaje..." required></textarea>
+                    <button class="btn-form" type="submit">Enviar</button>
                 </form>
             </div>
             <!-- End #contact-form -->
